@@ -1,0 +1,8 @@
+# publication.yaml
+http:
+  - base: /
+    http-services:
+      service:
+        - name: АПРО_ВЗ_HTTPЗапросы
+          root: queries
+          publish: true
