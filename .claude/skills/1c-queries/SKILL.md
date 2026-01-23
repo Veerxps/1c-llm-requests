@@ -11,9 +11,12 @@ description: Выполняет запросы к базе данных 1С:Пр
 
 ## Параметры подключения
 
-- **URL**: `http://20.10.10.101:8314/hs/queries/query`
+Значения бери из файла `.env`, который лежит рядом со `SKILL.md`:
+
+- `ONEC_QUERY_URL` — URL HTTP-сервиса (например: `http://20.10.10.101:8314/hs/queries/query`)
+- `ONEC_QUERY_LOGIN` — логин для Basic Auth
+- `ONEC_QUERY_PASSWORD` — пароль для Basic Auth
 - **Метод**: POST
-- **Авторизация**: Basic (login: `admin`, password: `123`)
 - **Content-Type**: `application/json`
 
 ## Формат запроса
@@ -477,13 +480,29 @@ description: Выполняет запросы к базе данных 1С:Пр
 
 ---
 
-## Выполнение запроса
+## Скрипты для выполнения запросов
 
-Для выполнения запроса используй curl или аналогичный инструмент:
+Скрипты читают `.env` автоматически и отправляют запрос в 1С.
+
+**Windows (PowerShell):**
+
+```powershell
+.\.claude\skills\1c-queries\scripts\query-1c.ps1 -Query "ВЫБРАТЬ ПЕРВЫЕ 10 Товары.Код, Товары.Наименование ИЗ Справочник.Номенклатура КАК Товары"
+```
+
+**Linux (bash):**
 
 ```bash
-curl -X POST "http://20.10.10.101:8314/hs/queries/query" \
-  -H "Authorization: Basic YWRtaW46MTIz" \
+./.claude/skills/1c-queries/scripts/query-1c.sh "ВЫБРАТЬ ПЕРВЫЕ 10 Товары.Код, Товары.Наименование ИЗ Справочник.Номенклатура КАК Товары"
+```
+
+## Выполнение запроса вручную
+
+При необходимости используй curl или аналогичный инструмент:
+
+```bash
+curl -X POST "$ONEC_QUERY_URL" \
+  -H "Authorization: Basic <base64(login:password)>" \
   -H "Content-Type: application/json" \
   -d '{"query": "ВЫБРАТЬ ПЕРВЫЕ 10 Товары.Код, Товары.Наименование ИЗ Справочник.Номенклатура КАК Товары"}'
 ```
